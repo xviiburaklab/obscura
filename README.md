@@ -30,7 +30,7 @@ The idea was to build a system that feels exclusive. Instead of just booking a s
 
 If you want to spin this up locally:
 
-​```bash
+```bash
 composer install
 npm install
 cp .env.example .env
@@ -38,7 +38,7 @@ php artisan key:generate
 touch database/database.sqlite
 php artisan migrate --seed
 php artisan serve
-​```
+```
 
 ## License
 
