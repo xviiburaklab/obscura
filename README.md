@@ -1,3 +1,6 @@
+<img width="1234" height="664" alt="image" src="https://github.com/user-attachments/assets/111ef959-d7ea-4aee-bbca-14dfb3862c8c" />
+
+
 # Obscura
 
 A fine-dining reservation system built to explore minimalist design and solid Laravel fundamentals. I created this as a portfolio piece to handle a very specific business case: a restaurant with only one table, one seating per night, and a strict ten-course tasting menu. 
