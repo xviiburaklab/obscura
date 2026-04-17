@@ -6,16 +6,20 @@ services:
     image: obscura-app
     container_name: obscura-app
     restart: unless-stopped
-    tty: true
-    environment:
-      SERVICE_NAME: app
-      SERVICE_TAGS: dev
-    working_dir: /var/www
+    ports:
+      - "127.0.0.1:8090:80"
     volumes:
-      - ./:/var/www
+      - obscura-db:/var/www/database
+      - obscura-storage:/var/www/storage
+    env_file:
+      - .env
     networks:
       - obscura
 
 networks:
   obscura:
     driver: bridge
+
+volumes:
+  obscura-db:
+  obscura-storage:
