@@ -9,6 +9,8 @@
 ![docker](https://img.shields.io/badge/docker-ready-2496ED?style=flat-square&labelColor=2d2d2d)
 ![license](https://img.shields.io/badge/license-MIT-yellow?style=flat-square&labelColor=2d2d2d)
 
+**Live demo:** [obscura.xviilab.com](https://obscura.xviilab.com)
+
 A fine-dining reservation system built to explore minimalist design and solid Laravel fundamentals. I created this as a portfolio piece to handle a very specific business case: a restaurant with only one table, one seating per night, and a strict ten-course tasting menu.
 
 The idea was to build a system that feels exclusive. Instead of just booking a slot, users *request* a table, and the admin has to manually review and approve or reject it.
